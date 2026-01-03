@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Spread Love",
+  "version": "1.0.0",
+  "description": "Spread Love",
+  "icons": {
+    "16": "images/icons/spreadlove-icon-16.png",
+    "48": "images/icons/spreadlove-icon-48.png",
+    "128": "images/icons/spreadlove-icon-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icons/spreadlove-icon-16.png",
+      "48": "images/icons/spreadlove-icon-48.png"
+    },
+    "default_title": "Spread Love"
+  },
+  "side_panel": {
+    "default_path": "src/index.html"
+  },
+  "background": {
+    "service_worker": "src/background/background.js",
+    "type": "module"
+  },
+  "permissions": ["sidePanel"]
+}
