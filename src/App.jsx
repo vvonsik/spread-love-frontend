@@ -86,14 +86,24 @@ const App = () => {
 
   useEffect(() => {
     let isMounted = true;
+
     chrome.storage.local.get("token", (result) => {
       if (isMounted) {
         setIsLoggedIn(!!result.token);
       }
     });
 
+    const handleStorageChange = (changes) => {
+      if (changes.token && isMounted) {
+        setIsLoggedIn(!!changes.token.newValue);
+      }
+    };
+
+    chrome.storage.onChanged.addListener(handleStorageChange);
+
     return () => {
       isMounted = false;
+      chrome.storage.onChanged.removeListener(handleStorageChange);
     };
   }, []);
 
