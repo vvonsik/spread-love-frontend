@@ -16,11 +16,40 @@
     "default_title": "Spread Love"
   },
   "side_panel": {
-    "default_path": "src/index.html"
+    "default_path": "src/sidepanel/index.html"
   },
   "background": {
-    "service_worker": "src/background/background.js",
+    "service_worker": "src/background/index.js",
     "type": "module"
   },
-  "permissions": ["sidePanel"]
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+S",
+        "mac": "Option+Shift+S"
+      }
+    },
+    "analyze-image": {
+      "suggested_key": {
+        "default": "Alt+Shift+I",
+        "mac": "Option+Shift+I"
+      },
+      "description": "포커스된 이미지 분석"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content/index.js"]
+    }
+  ],
+  "permissions": ["sidePanel", "storage", "activeTab", "tabs"],
+  "host_permissions": ["https://api.spreadloved.com/*"],
+  "options_page": "src/settings/index.html",
+  "web_accessible_resources": [
+    {
+      "resources": ["src/login/index.html"],
+      "matches": ["https://*.google.com/*"]
+    }
+  ]
 }

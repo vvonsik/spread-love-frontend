@@ -5,4 +5,10 @@
   --color-sl-red: #d93a3a;
   --color-sl-black: #111111;
   --color-sl-white: #ffffff;
+  --color-sl-gray-light: #d1d5db;
+  --color-sl-gray-dark: #4b5563;
+}
+
+.text-\[64px\] {
+  font-size: 64px;
 }
