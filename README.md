@@ -8,9 +8,11 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/SpreadLoveProject/spread-love-frontend">Frontend Repository</a>
+  <a href="https://chromewebstore.google.com/detail/spread-love/dmklbfcmddccklcghkijhgglpgmfedlh?hl=ko&authuser=3">익스텐션 바로가기</a>
   <span> | </span>
-  <a href="https://github.com/SpreadLoveProject/spread-love-backend">Backend Repository</a>
+  <a href="https://github.com/vvonsik/spread-love-frontend">프론트엔드 레포지토리</a>
+  <span> | </span>
+  <a href="https://github.com/vvonsik/spread-love-backend">백엔드 레포지토리</a>
 </p>
 
 <br>
@@ -69,20 +71,36 @@
 # **🎯 Features**
 
 ### 1. 웹페이지 요약
-![summary](https://github.com/user-attachments/assets/bc0d038a-47c9-4809-a6ed-975d06a90845)
+<img width="1280" height="800" alt="page-summary" src="https://github.com/user-attachments/assets/ed2aafa4-34d7-4fcd-b74f-f97655eadf04" />
 
+- 웹 페이지의 레이아웃 구조를 설명합니다.
+- 뉴스 기사, 블로그 등 텍스트 콘텐츠의 핵심을 요약합니다.
+
+<br>
 
 ### 2. 이미지 분석
-![analyze](https://github.com/user-attachments/assets/13640119-7d36-4664-ada6-17cd7872eea9)
+
+<img width="1280" height="800" alt="image-analyze" src="https://github.com/user-attachments/assets/77e1735e-203e-44b3-8d64-96ec62fffd5e" />
+
+- 실제 이미지 내용을 정확하게 설명합니다.
+
+<br>
 
 
 ### 3. 히스토리 관리
 
-<img width="1280" height="800" alt="Image" src="https://github.com/user-attachments/assets/e5a8eeca-7c6b-4db8-9b89-a56728bd944f" />
+<img width="1280" height="800" alt="page-histories" src="https://github.com/user-attachments/assets/88c52b2c-b282-4781-84f5-c6d57751a804" />
+
+- 요약 및 분석 결과를 저장하고 다시 확인할 수 있습니다.
+
+<br>
 
 ### 4. 설정
 
-<img width="1280" height="800" alt="Image" src="https://github.com/user-attachments/assets/6078b7c1-ed3b-4dff-b20c-df714c3a13ca" />
+<img width="1280" height="800" alt="page-settings" src="https://github.com/user-attachments/assets/156a7d4a-6607-443a-b51f-8b8c07b629d6" />
+
+- 요약 길이를 조절할 수 있습니다.
+- 원하는 말투를 선택할 수 있습니다.
 
 <br>
 
