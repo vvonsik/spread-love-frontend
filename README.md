@@ -10,9 +10,9 @@
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/spread-love/dmklbfcmddccklcghkijhgglpgmfedlh?hl=ko&authuser=3">익스텐션 바로가기</a>
   <span> | </span>
-  <a href="https://github.com/vvonsik/spread-love-frontend">프론트엔드 레포지토리</a>
+  <a href="https://github.com/Team-SpreadLove/spread-love-frontend">프론트엔드 레포지토리</a>
   <span> | </span>
-  <a href="https://github.com/vvonsik/spread-love-backend">백엔드 레포지토리</a>
+  <a href="https://github.com/Team-SpreadLove/spread-love-backend">백엔드 레포지토리</a>
 </p>
 
 <br>
@@ -91,16 +91,18 @@
 
 <img width="1280" height="800" alt="page-histories" src="https://github.com/user-attachments/assets/88c52b2c-b282-4781-84f5-c6d57751a804" />
 
-- 요약 및 분석 결과를 저장하고 다시 확인할 수 있습니다.
+- 요약 및 분석 결과를 다시 확인할 수 있습니다.
+- 요약 및 분석 결과를 삭제할 수 있습니다.
 
 <br>
 
 ### 4. 설정
 
-<img width="1280" height="800" alt="page-settings" src="https://github.com/user-attachments/assets/156a7d4a-6607-443a-b51f-8b8c07b629d6" />
+<img width="1280" height="800" alt="page-settings" src="https://github.com/user-attachments/assets/d8fdad56-1b55-4f68-b2b9-147c94e5392a" />
 
 - 요약 길이를 조절할 수 있습니다.
 - 원하는 말투를 선택할 수 있습니다.
+- 단축키를 설정할 수 있습니다.
 
 <br>
 
